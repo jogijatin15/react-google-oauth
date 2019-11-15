@@ -1,0 +1,50 @@
+.grid {
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  width: 100%;
+}
+
+.grid.isBound {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+[class*=col__] {
+  position: relative;
+  float: left;
+  box-sizing: border-box!important;
+  padding: 10px;
+}
+
+.col__3-12 {
+    width: 25%;
+}
+
+.col__4-12 {
+    width: 33.33%;
+}
+
+.col__6-12 {
+    width: 50%;
+}
+
+.col__9-12 {
+    width: 75%;
+}
+
+.col__12-12 {
+    width: 100%;
+}
+
+.xp__image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img.stretchy {
+  width: 100%!important;
+  height: auto;
+  top: 0;
+  left: 0;
+}
